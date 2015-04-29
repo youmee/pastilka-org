@@ -1,0 +1,10 @@
+﻿CACHE MANIFEST 
+# Version: b1.0.44
+
+CACHE:
+/js/pastilka.js
+/css/pastilka.css
+/pastfavicon.ico
+
+NETWORK:
+*

@@ -1,0 +1,143 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.clear { clear: both; }
+.ul-inline { list-style: none; list-style-type: none; margin: 0; padding: 0; }
+.ul-inline li { float: left; display: list-item; text-align: -webkit-match-parent; }
+
+#header
+{
+	position: relative;
+	/*background-color: #243E5C;*/
+	/*background-color: #356970;*/
+	padding: 7px 4% 7px;
+	/*padding-top: 7px;*/
+	/*padding-bottom: 7px;*/
+	/*border-bottom: 1px solid #345;*/
+	/*box-shadow: 0px 3px 5px #777;*/
+
+	background: #62d7ef; /* Old browsers */
+	background: -moz-linear-gradient(top,  #62d7ef 0%, #81dff2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#62d7ef), color-stop(100%,#81dff2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #62d7ef 0%,#81dff2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #62d7ef 0%,#81dff2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #62d7ef 0%,#81dff2 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #62d7ef 0%,#81dff2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#62d7ef', endColorstr='#81dff2',GradientType=0 ); /* IE6-9 */
+}
+
+#hbody
+{
+	width: 950px;
+	margin: 0 auto;
+}
+
+.logo
+{
+	font-family: Tahoma, Arial, sans-serif;
+	color: white;
+	/*text-shadow: 1px 1px 0px rgba(150, 150, 150, 1), 0px 0px 5px rgba(139, 64, 189, 0.75);*/
+	font-size: 22px;
+	letter-spacing: -1px;
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+
+#hbody .addition
+{
+	position: relative;
+	top: 4px;
+	color: #edfafd;
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 950px;
+	display: block;
+}
+
+#content
+{
+	margin: 15px auto;
+}
+
+#def-ta
+{ 
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 5px;
+	font-family: Inconsolata,Monaco,Consolas,"Courier New",monospace;
+	font-size: 14px;
+	background: white;
+	background: rgba(255,255,255,0.90);
+	width: 99%;
+}
+
+.timestamp
+{
+	float: right;
+	color: #dddddd;
+	font-size: 12px;
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+#hashes
+{
+	opacity: 0.7;
+	margin-left: 2em;
+}
+
+#hashes { color: paleturquoise; }
+#hashes a { color: #009BBB; text-decoration: none; }
+#hashes a:hover { text-decoration: underline; }
+.newPg { color: paleturquoise !important; }
+
+.logoanch 
+{
+	color: white;
+	text-decoration: none;
+}
+
+.ac1tive { color: #016A80 !important; }
+
+.active {
+	
+	color: white !important;
+
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 6s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    
+    animation-name: blinker;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+	0% { color: white; }
+    50% { color: #BBF3FF; }
+    100% { color: white; }
+}
+@-webkit-keyframes blinker {  
+    0% { color: white; }
+    50% { color: #BBF3FF; }
+    100% { color: white; }
+}
+
+@keyframes blinker {  
+    0% { color: white; }
+    50% { color: #BBF3FF; }
+    100% { color: white; }
+}
